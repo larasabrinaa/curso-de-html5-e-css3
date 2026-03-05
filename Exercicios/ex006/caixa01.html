@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {/*BOX-LEVEL*/
+            background-color: rgba(137, 43, 226, 0.404);
+            /* BOX-SIZE */
+            height: 200px;
+            width: 400px;
+
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: brown;
+           
+            border-width: 10px;
+            border-style: solid;
+            border-color:darkslategray;
+            /* Usando shorthand */
+            border: 10px solid darkslategra;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* Usando short hand */
+            /* Se todos os valores forem iguais coloca só um valor */
+            padding: 10px 10px 10px 10px;
+            /* Ou duas vezes, o primeiro valor é o mesmo para cima e para baixo, o segundo valor é o mesmo pra os lados */
+            padding: 10px 10px;
+            /* Ou basta colocar uma vez se forem todas iguais */
+            padding: 10px;
+            /* O de cima e o de baixo voa ser 10 px e o dos lados vão ser 20px */
+            /* padding: 10px 20px; */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* margin: auto; Centraliza o elemento */
+            /* Usando shorthand */
+            margin: 10px;
+            margin: 10px auto 10px auto;
+            /* Centraliza os elementos na horizontal */
+            
+            /* O outline é um tracejado que tem dentro da margem */
+            outline-width: 5px;
+            outline-style:groove ;
+            outline-color: salmon;
+            /* Usando shorthand */
+            outline: 5px groove salmon;
+        }
+
+        h2{
+            background-color: rgb(169, 150, 187);
+            width:200px ;
+            height: 100px; 
+
+            border:15px orange solid;
+            padding: 10px 10px;
+            margin:30px auto ;
+            outline: 10px double rgb(79, 163, 190);
+
+            text-align: center;
+            color: brown;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+             
+
+        }
+        
+        a { /* INLINE-LEVEL*/
+            background-color: aquamarine;
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; 
+            
+        }
+
+        p {
+            text-align: center;
+            background-color: rgb(78, 105, 79);
+            color: white;
+            height: 25px;
+            width:1200px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size:18px ;
+            
+            border: 5px solid lightseagreen;
+            padding: 10px;
+            margin: auto;
+            outline: 8px dashed lightgreen ;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <h2>Exemplo 2 caixa box box-level</h2>
+    <br>
+    <p>Paragrafo tambem são exemplos de box-level,mas os <a href="#">LInks são exmplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

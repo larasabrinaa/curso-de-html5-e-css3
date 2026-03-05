@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:'Work saans', Arial, Helvetica, sans-serif;
+         /* Medidas absolutas:
+            cm, mm, in (polegada),px (pixel) ,pt (ponto) ,pc (paica)
+
+            Medidas relativas:
+            em (altura do M maiusculo) ,ex ,rem ,vw ,vh ,%
+
+            Recomendado usar px e em
+            (16px é o tamannho da letra normalmente)
+           */
+            font-size:1em;
+            /* font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+             */
+        }
+        h1{
+            /* font-family: 'work-sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            
+            /* SHORTHAND */
+            /*  ORDEM :font-style > font-weight > font-size > font-family   */
+            font:italic bolder 3em 'work-sans', sans-serif;
+            
+            
+        }
+        h2{
+            font: bold 2em 'work sans'
+        }
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores cumque perspiciatis perferendis, quis unde inventore, ipsa rem molestias amet, exercitationem maiores sapiente labore voluptates voluptatum. Consectetur pariatur dolore culpa id.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat natus aliquam fugiat accusamus adipisci blanditiis vel asperiores sunt? Iure aspernatur voluptas id magnam, doloremque sint quidem provident tempore recusandae neque.</p>    
+    <h2>Súbtilo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi placeat rem facere eius doloribus ipsa distinctio! Nesciunt quo harum, asperiores dolore at facere pariatur sequi voluptas iusto obcaecati officia?</p>
+    
+</body>
+</html>
